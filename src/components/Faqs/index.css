@@ -1,0 +1,40 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.main-container {
+  background-color: #9aa5b1;
+  padding: 30px;
+  min-height: 100vh;
+}
+.card-container {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 25px;
+}
+.heading {
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #cb8805;
+  font-size: 30px;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+@media screen and (min-width: 767px) {
+  .card {
+    width: 80%;
+    margin: auto;
+  }
+  .card-container {
+    width: 80%;
+    margin: auto;
+  }
+  .heading {
+    font-size: 40px;
+    padding: 0px 0px 20px 0px;
+  }
+}
